@@ -5,3 +5,6 @@ docs/.vitepress/dist/
 .env
 .env.*
 !.env.example
+
+.venv-kokoro/
+__pycache__/

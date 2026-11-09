@@ -42,27 +42,34 @@ VitePress 1.6.4 uses a Vite 6.4.6 override to avoid older dependency advisories.
 
 ## Designer references and brand analysis
 
-Designer pages live in `docs/designers/` and link from Our Brand. Portraits are linked at their original sources because reusable portraits were not verified; misleading image candidates were excluded. The short framework guide is `docs/research/brand-strategy.md`. Competitor labels are interpretations, with evidence and limitations beside each claim. Regenerate competitor audio whenever these profiles change.
+Designer pages live in `docs/designers/` and link from Our Brand. Portraits are linked at their original sources because reusable portraits were not verified; misleading image candidates were excluded. The short framework guide is `docs/research/brand-strategy.md`. Competitor labels are interpretations, with evidence and limitations beside each claim. Review and regenerate the relevant audio whenever its research changes.
 
 ## Local audio
 
-The homepage has a welcome player; each competitor profile has an audio brief. Native controls provide playback and seeking, with an MP3 download and a transcript collapsed by default. No autoplay.
+Each audio panel includes play/pause, seeking, a speed selector, MP3 download, and a transcript collapsed by default. No autoplay. Audio files are generated ahead of time and committed; GitHub Pages needs no speech service or API key.
 
-On macOS, with `say` and `ffmpeg` installed:
+### ASKET: 60-second Kokoro pilot
 
-```sh
-npm run audio:generate
-```
+[Listen to the ASKET summary](https://kaw393939.github.io/white-tee-research/competitors/asket.html). The script is `audio/asket-summary.txt`; the default voice is Kokoro's American English `af_heart`. Edit that summary when the research changes, then regenerate and publish the audio and transcript together.
 
-This regenerates four MP3s in `docs/public/audio/` and their matching transcript manifest. Welcome narration lives in `audio/welcome.txt`; competitor narration comes from the Markdown profiles with markup and URLs removed. Edit text first, regenerate audio, build, and publish together so the transcripts stay aligned. The MP3s are committed, so publishing and playback do not require macOS. No external speech API is used.
-
-Optional voice and rate settings:
+Local setup (Python 3.11, tested on Apple Silicon):
 
 ```sh
-TTS_VOICE=Daniel TTS_RATE=155 npm run audio:generate
+brew install python@3.11 espeak-ng ffmpeg
+python3.11 -m venv .venv-kokoro
+.venv-kokoro/bin/pip install -r scripts/requirements-kokoro.txt
+npm run audio:asket
 ```
 
-Run `say -v '?'` to list available voices. Default: Samantha, 165 words per minute.
+The first generation downloads the model, voice, and English language resources. Synthesis runs locally on CPU; model caches and the Python environment stay outside Git. `KOKORO_VOICE` can select another American English voice. The generator measures the recording, makes a modest tempo adjustment to reach 60 seconds without cutting speech, normalizes loudness, and updates the transcript and cache version. It rejects scripts requiring more than a 20% tempo adjustment.
+
+Sources: [Kokoro library](https://github.com/hexgrad/kokoro) · [model and Apache 2.0 license](https://huggingface.co/hexgrad/Kokoro-82M).
+
+### Existing Mac narration
+
+`npm run audio:generate` refreshes the welcome, Son of a Tailor, and True Classic recordings using macOS `say` and FFmpeg. It preserves Kokoro entries, including ASKET. These other competitors still use full-page narration during the pilot.
+
+Optional: `TTS_VOICE=Daniel TTS_RATE=155 npm run audio:generate`. Default: Samantha, 165 words per minute. Use `say -v '?'` to list installed voices.
 
 ## Mermaid diagrams
 

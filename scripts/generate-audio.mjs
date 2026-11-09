@@ -41,10 +41,13 @@ const inputs = [
   ['true-classic', 'Listen to the True Classic brief', 'docs/competitors/true-classic.md']
 ]
 const temp = mkdtempSync(join(tmpdir(), 'white-tee-audio-'))
-const manifest = {}
+const manifest = JSON.parse(readFileSync('docs/.vitepress/theme/audio.generated.json', 'utf8'))
+const generated = []
 mkdirSync('docs/public/audio', { recursive: true })
 try {
   for (const [name, title, source] of inputs) {
+    if (manifest[name]?.engine === 'kokoro') continue
+    generated.push(name)
     const raw = readFileSync(source, 'utf8')
     const transcript = source.endsWith('.md') ? narration(raw) : raw.trim()
     if (!transcript || /<AudioBrief|https?:\/\//.test(transcript)) throw new Error(`Unexpected narration content in ${source}`)
@@ -55,7 +58,7 @@ try {
     const duration = Math.round(Number(execFileSync('ffprobe', ['-v', 'quiet', '-show_entries', 'format=duration', '-of', 'csv=p=0', mp3], { encoding: 'utf8' }).trim()))
     manifest[name] = { title, file: `/audio/${name}.mp3`, duration, transcript }
   }
-  for (const [name] of inputs) renameSync(join(temp, `${name}.mp3`), resolve(`docs/public/audio/${name}.mp3`))
+  for (const name of generated) renameSync(join(temp, `${name}.mp3`), resolve(`docs/public/audio/${name}.mp3`))
   writeFileSync('docs/.vitepress/theme/audio.generated.json', JSON.stringify(manifest, null, 2) + '\n')
-  console.log(`Generated ${inputs.length} MP3s and matching transcripts using ${voice} at ${rate} words per minute.`)
+  console.log(`Generated ${generated.length} MP3s and matching transcripts using ${voice} at ${rate} words per minute.`)
 } finally { rmSync(temp, { recursive: true, force: true }) }
