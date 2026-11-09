@@ -1,30 +1,15 @@
 # White Tee Research
 
-A project library for building a brand that sells **plain white T-shirts**. First, understand the competition. Then decide who we serve and what we stand for.
+Research for our future **plain white T-shirt brand**. Start with competitors; use what we learn to shape [our brand](/our-brand).
 
-**Current phase:** competitive landscape research. No competitor profiles completed yet.
+## Competitors
 
-## The library
+No profiles yet. **Next: research three brands** and compare their product, price, positioning, and customer feedback.
 
-| Area | What lives here |
-| --- | --- |
-| [Competitors](/competitors/) | A comparison table and individual brand profiles |
-| [Our brand](/our-brand) | Future customer persona, positioning, creative direction, and website plan |
+Profiles will appear here with a one-line takeaway. Include focused clothing brands, T-shirt specialists, and useful broader benchmarks.
 
-## Next steps
+[Use the profile template](/competitors/template)
 
-1. Choose an initial sales market and customer scope.
-2. Find relevant brands and complete three [competitor profiles](/competitors/template).
-3. Compare their offers, identify patterns, and decide what to investigate next.
+## What we’ve learned
 
-Include single-product brands, T-shirt specialists, and broader apparel benchmarks. Check each brand’s current assortment before classifying it.
-
-## What we’re learning
-
-No findings yet. Add short, evidence-backed observations here as profiles develop. Link to the relevant profiles and distinguish findings from ideas we still need to test.
-
-## Decisions
-
-- **Chosen:** plain white T-shirts; research before brand development.
-- **Still open:** audience, market, price, fit, brand name, and design direction.
-- **For later exploration:** brand archetypes, Cialdini’s persuasion principles, and modern or postmodern design.
+No findings yet. Keep the strongest insights here, linked to the profiles that support them.

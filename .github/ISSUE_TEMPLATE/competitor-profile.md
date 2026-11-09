@@ -11,5 +11,5 @@ Brand and official URL:
 - [ ] Check current assortment and select a white T-shirt
 - [ ] Complete the profile template with dated sources
 - [ ] Capture customer evidence and its limitations
-- [ ] Add the profile to the competitor comparison table
-- [ ] Add useful findings to the overview; label hypotheses
+- [ ] Add the profile to the research homepage
+- [ ] Add useful findings to the research homepage; label hypotheses

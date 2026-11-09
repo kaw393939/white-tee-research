@@ -1,41 +1,30 @@
 # Competitor profile template
 
-Copy this page for each brand. Keep it concise, link sources beside factual claims, and use **Unknown** where evidence is missing.
+**Website:** — · **Market:** — · **Reviewed:** YYYY-MM-DD
 
-**Website:** — · **Type:** — · **Market:** — · **Last reviewed:** YYYY-MM-DD
+## The offer
 
-## Summary
+Who buys it, what does the brand promise, and is its current range focused on one product?
 
-Who is the customer? What does the brand promise? What makes it different? Summarize in two or three sentences, including whether its current range is focused on one product.
-
-## Product & price
-
-| Reference white T-shirt | Details |
+| White T-shirt | Details |
 | --- | --- |
-| Product / link | — |
-| Fabric / weight / fit / sizes | — |
-| Price / currency / pack size | — |
-| Shipping / returns | — |
+| Product link | — |
+| Fabric & fit | — |
+| Price, currency & pack size | — |
+| Shipping & returns | — |
 
-Record the exact white variant, date, and region. Separate regular and sale prices; calculate per-shirt pricing for packs. Label product-performance statements as brand claims unless independently tested.
+## The brand
 
-## Brand & website
+Briefly describe the messaging, visual style, and shopping experience. Note any persuasive techniques or archetype cues as interpretations, supported by examples.
 
-- **Messaging:** main promise and supporting proof.
-- **Visual style:** typography, color, photography, and layout.
-- **Shopping experience:** discovery, product page, and buying friction.
-- **Persuasion & archetypes:** observed examples and tentative interpretations. Link evidence; don’t assume the brand intended a particular framework.
+## Customer feedback
 
-## Customer evidence
+Summarize recurring praise and complaints. Link the review sources and note how many reviews you examined and any limitations.
 
-What do customers repeatedly praise or criticize? Link the review sources, note the sample size and dates, and identify limitations. A few selected reviews do not represent all customers.
+## What we can learn
 
-## Takeaways
+One useful takeaway, one idea to test, and any important unknowns.
 
-- **What we learned:** evidence-backed strengths, weaknesses, or patterns.
-- **What we might test:** an idea for our project, clearly marked as a hypothesis.
-- **Still unknown:** the most important gap or next question.
+---
 
-## Sources
-
-Keep URLs beside claims. Use this section for any additional source notes, access dates, and conflicting evidence. Prefer official pages for product facts and policies; use independent evidence to assess performance and customer experience.
+**Research notes:** link sources beside claims and record access dates. Label unknowns, brand claims, and hypotheses. Compare the same white variant and distinguish regular prices from discounts.

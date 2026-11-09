@@ -13,3 +13,11 @@
 }
 .VPHomeHero .name { letter-spacing: -.045em; }
 .VPHomeHero .text { letter-spacing: -.035em; }
+.site-feedback {
+  margin-top: 32px;
+  padding: 20px 0;
+  border-top: 1px solid var(--vp-c-divider);
+}
+.feedback-links { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-top: 8px; }
+.feedback-links a { color: var(--vp-c-brand-1); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+.site-feedback p { margin: 8px 0 0; color: var(--vp-c-text-2); font-size: 13px; line-height: 1.6; }

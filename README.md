@@ -6,11 +6,16 @@ A public project library for a future plain white T-shirt brand, built with Vite
 
 ## Library
 
-- **Overview** (`docs/index.md`): goal, next steps, findings, and decisions.
-- **Competitors** (`docs/competitors/`): comparison table and individual profiles, with sources inside each profile.
-- **Our brand** (`docs/our-brand.md`): future persona, positioning, brand direction, and website plan.
+- **Research** (`docs/index.md`): competitor profiles and key findings.
+- **Our brand** (`docs/our-brand.md`): future persona, brand direction, and website plan.
 
-To add a competitor, copy `docs/competitors/template.md` to `docs/competitors/brand-slug.md`, fill it with sourced findings, and link it in the competitor table. Unknowns and hypotheses should be explicit. No competitor research is populated yet.
+Copy `docs/competitors/template.md` to start a profile, cite sources beside claims, and link the finished profile from the research homepage. Keep unknowns and hypotheses explicit.
+
+## Feedback
+
+Use **Suggest a change** beneath any page to open a GitHub issue with that page’s link included. Review and submit it on GitHub. A GitHub account is required, and submitted issues are public.
+
+[View feedback and track changes](https://github.com/kaw393939/white-tee-research/issues). The site feedback template is also available from GitHub’s New issue button. Issues are the change queue; fixes are implemented and published separately.
 
 ## Run locally
 
