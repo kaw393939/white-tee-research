@@ -1,10 +1,18 @@
 # White Tee Research
 
-**[Open the research hub](https://kaw393939.github.io/white-tee-research/)**
+**[Review the live research hub](https://kaw393939.github.io/white-tee-research/)**
 
-A VitePress research hub for a future plain white T-shirt brand. Current scope: collect evidence, profile competitors, and map the competitive landscape before developing the brand.
+A public project library for a future plain white T-shirt brand, built with VitePress.
 
-## Local development
+## Library
+
+- **Overview** (`docs/index.md`): goal, next steps, findings, and decisions.
+- **Competitors** (`docs/competitors/`): comparison table and individual profiles, with sources inside each profile.
+- **Our brand** (`docs/our-brand.md`): future persona, positioning, brand direction, and website plan.
+
+To add a competitor, copy `docs/competitors/template.md` to `docs/competitors/brand-slug.md`, fill it with sourced findings, and link it in the competitor table. Unknowns and hypotheses should be explicit. No competitor research is populated yet.
+
+## Run locally
 
 Requires Node.js 22+.
 
@@ -13,38 +21,16 @@ npm ci
 npm run docs:dev
 ```
 
-Production verification:
+Use `npm run docs:build` to verify the production build and internal links; `npm run docs:preview` previews it.
 
-```sh
-npm run docs:build
-npm run docs:preview
-```
+## Publish
 
-## Workspace
-
-- `docs/research/brief.md`: scope and competitor definitions
-- `docs/competitors/`: directory and reusable profile template
-- `docs/research/comparison.md`: comparison matrix
-- `docs/research/sources.md`: dated evidence log
-- `docs/research/insights.md`: hypotheses and findings
-- `docs/project/`: roadmap, decisions, contribution guide
-
-No competitor findings have been populated yet. Start by defining the initial market and audience, then qualify candidates and research three profiles.
-
-## Infrastructure
-
-VitePress 1.6.4 (stable), local full-text search, light/dark theme, and a GitHub Actions build workflow example. The lockfile pins dependency resolution. A Vite 6.4.6 override avoids advisories in the older Vite dependency bundled by stable VitePress; the production build is verified with this override. Build output is `docs/.vitepress/dist` and is not committed.
-
-The build workflow is saved at `.github/workflow-examples/docs.yml`. Move it to `.github/workflows/docs.yml` using GitHub credentials with workflow permission to enable CI. The current token cannot publish active workflows.
-
-## Live site and publishing
-
-The repository is public. Review the hub at **https://kaw393939.github.io/white-tee-research/**.
-
-GitHub Pages serves the generated site from the root of the `gh-pages` branch. The VitePress base path is `/white-tee-research/`. After editing and pushing source changes to `main`, publish a fresh build with:
+Push source changes to `main`, then run:
 
 ```sh
 npm run docs:deploy
 ```
 
-Publishing requires an authenticated GitHub CLI (`gh`) with repository write access. The deploy script builds the site, adds `.nojekyll`, and pushes a new commit to `gh-pages`. Source pushes alone do not update the live site. This branch-based deployment does not require OAuth workflow scope.
+GitHub Pages serves the generated `gh-pages` branch at **https://kaw393939.github.io/white-tee-research/**. Publishing requires an authenticated GitHub CLI with repository write access. Source pushes alone do not update the site.
+
+VitePress 1.6.4 uses a Vite 6.4.6 override to avoid older dependency advisories. The optional CI example in `.github/workflow-examples/docs.yml` requires workflow permission before moving into `.github/workflows/`.

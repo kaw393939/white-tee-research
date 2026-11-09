@@ -1,20 +1,15 @@
 ---
 name: Competitor research
-about: Qualify and research a competitor
+about: Create a concise, sourced competitor profile
 title: 'Research: [brand]'
 ---
 
 ## Candidate
 Brand and official URL:
 
-## Qualification
-- [ ] Check current assortment and assign competitor group
-- [ ] Identify a relevant plain white T-shirt SKU
-
-## Research
-- [ ] Copy and populate the profile template
-- [ ] Record dated sources and confidence
-- [ ] Capture normalized pricing and product details
-- [ ] Review customer evidence and limitations
-- [ ] Update directory and comparison matrix
-- [ ] Record gaps and hypotheses
+## Checklist
+- [ ] Check current assortment and select a white T-shirt
+- [ ] Complete the profile template with dated sources
+- [ ] Capture customer evidence and its limitations
+- [ ] Add the profile to the competitor comparison table
+- [ ] Add useful findings to the overview; label hypotheses

@@ -1,71 +1,41 @@
 # Competitor profile template
 
-::: info How to use
-Copy this page to `docs/competitors/brand-slug.md`. Replace the title with the brand name. Keep unknown fields explicit and cite source IDs beside factual claims. This template contains no competitor findings.
-:::
+Copy this page for each brand. Keep it concise, link sources beside factual claims, and use **Unknown** where evidence is missing.
 
-## Snapshot
+**Website:** — · **Type:** — · **Market:** — · **Last reviewed:** YYYY-MM-DD
 
-| Field | Finding |
+## Summary
+
+Who is the customer? What does the brand promise? What makes it different? Summarize in two or three sentences, including whether its current range is focused on one product.
+
+## Product & price
+
+| Reference white T-shirt | Details |
 | --- | --- |
-| Brand / official website | Not researched |
-| Researcher / last checked | Not researched |
-| Research status | Candidate |
-| Competitor group and rationale | Not researched |
-| Current assortment | Not researched |
-| Original hero product / launch story | Not researched |
-| Region / target customer | Not researched |
-| One-sentence positioning | Not researched |
+| Product / link | — |
+| Fabric / weight / fit / sizes | — |
+| Price / currency / pack size | — |
+| Shipping / returns | — |
 
-## Reference product
+Record the exact white variant, date, and region. Separate regular and sale prices; calculate per-shirt pricing for packs. Label product-performance statements as brand claims unless independently tested.
 
-| Field | Finding / source |
-| --- | --- |
-| Product name / URL / SKU | Not researched |
-| White color variant / stock status | Not researched |
-| Intended wearer / wearing occasion | Not researched |
-| Neckline / fit / size range | Not researched |
-| Fiber composition / fabric weight (GSM) | Not researched |
-| Construction / origin / care | Not researched |
-| Opacity / shrinkage / durability claims | Not researched |
-| Certifications and scope | Not researched |
+## Brand & website
 
-## Pricing and buying experience
-
-| Field | Finding / source |
-| --- | --- |
-| Region / currency / date | Not researched |
-| Regular price / observed sale price | Not researched |
-| Pack count / calculated per-shirt price | Not researched |
-| Taxes / shipping / free-shipping threshold | Not researched |
-| Returns window / cost / exclusions | Not researched |
-| Sales channels / subscription / bundles | Not researched |
-
-## Positioning and acquisition
-
-- Core promise and proof offered: Not researched.
-- Visual identity and messaging: Not researched.
-- Observed acquisition channels: Not researched.
-- Reasons a customer might choose this product: Not researched.
+- **Messaging:** main promise and supporting proof.
+- **Visual style:** typography, color, photography, and layout.
+- **Shopping experience:** discovery, product page, and buying friction.
+- **Persuasion & archetypes:** observed examples and tentative interpretations. Link evidence; don’t assume the brand intended a particular framework.
 
 ## Customer evidence
 
-| Source / date | Sample and method | Praise / frustration | Limitations |
-| --- | --- | --- | --- |
-| Not researched | — | — | — |
+What do customers repeatedly praise or criticize? Link the review sources, note the sample size and dates, and identify limitations. A few selected reviews do not represent all customers.
 
-Do not infer representative satisfaction from a handful of selected reviews.
+## Takeaways
 
-## Assessment
-
-- Evidence-backed strengths: Not researched.
-- Evidence-backed weaknesses: Not researched.
-- Potential implication for our project (hypothesis): Not researched.
-- Confidence and unresolved questions: Not researched.
-- Next action: Verify current assortment and select a reference SKU.
+- **What we learned:** evidence-backed strengths, weaknesses, or patterns.
+- **What we might test:** an idea for our project, clearly marked as a hypothesis.
+- **Still unknown:** the most important gap or next question.
 
 ## Sources
 
-| Source ID | URL / title | Accessed | Supports |
-| --- | --- | --- | --- |
-| — | — | — | — |
+Keep URLs beside claims. Use this section for any additional source notes, access dates, and conflicting evidence. Prefer official pages for product facts and policies; use independent evidence to assess performance and customer experience.

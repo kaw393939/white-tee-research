@@ -1,19 +1,13 @@
-# Competitor directory
+# Competitors
 
-No brands have been qualified yet. This directory will track current business models as well as product competitors.
+Compare the offer, then open a profile for the evidence. Start with three brands and expand as useful patterns emerge.
 
-| Brand / profile | Official website | Group | Market | Status | Last checked |
-| --- | --- | --- | --- | --- | --- |
-| — | — | — | — | Not researched | — |
+**No profiles yet.** Use the [profile template](./template) to add the first competitor.
 
-## Add a competitor
+| Brand / profile | Type | Customer & promise | White tee / price | Key takeaway |
+| --- | --- | --- | --- | --- |
+| To be researched | — | — | — | — |
 
-Copy the [profile template](./template) to `docs/competitors/brand-slug.md`, replace the placeholders, and link the new page here. Keep unqualified candidates out of conclusions.
+**Types:** single-product brand, T-shirt specialist, or broader apparel benchmark. A brand’s original hero product may differ from its current assortment.
 
-## Discovery queue
-
-Look for single-product clothing brands, white T-shirt specialists, premium basics, accessible essentials, and specialist fit or fabric propositions. These are search directions, not validated market segments.
-
-| Candidate | Discovery source | Why investigate | Next check |
-| --- | --- | --- | --- |
-| — | — | — | Check assortment and white T-shirt availability |
+Record the market, currency, and pack size with prices. Link each brand name to its profile; keep supporting sources and review dates inside that profile.
