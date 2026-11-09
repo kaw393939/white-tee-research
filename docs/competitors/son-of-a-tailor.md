@@ -1,0 +1,32 @@
+# Son of a Tailor
+
+**Angle:** custom fit and made-to-order production · **Market:** USD storefront · **Reviewed:** November 9, 2026
+
+<AudioBrief name="son-of-a-tailor" />
+
+## The offer
+
+The brand calls its cotton T-shirt its first product. Today the range also includes polos, shirts, and knitwear: a T-shirt-led specialist that has expanded, not a single-product business. [Product](https://www.sonofatailor.com/product/cotton-t-shirt/1-1-3-9-1) · [Current assortment](https://www.sonofatailor.com/).
+
+| White T-shirt | Observed details |
+| --- | --- |
+| Product | Cotton T-Shirt, Medium Weight, White |
+| Single-shirt price | US$75; bundle promotion shown separately |
+| Fabric | 100% Supima cotton; 150 GSM jersey |
+| Fit & production | Custom and standard sizes; made to order in Portugal |
+| Timing & shipping | 7–10 days production; free shipping on two or more items |
+| Fit assurance | Free remake if dissatisfied with the fit of the first order |
+
+Source: [product page, including Shipping and Guarantee tabs](https://www.sonofatailor.com/product/cotton-t-shirt/1-1-3-9-1). Production time is not delivery time. Single-item shipping, taxes, and refund conditions were not verified. A remake guarantee should not be treated as a refund policy.
+
+## The brand
+
+Fit is the central promise, supported by material and production explanations. The page explicitly notes slight translucency in the white tee. **Interpretation:** customization and fit assurance reduce purchase uncertainty; production detail supports credibility. These are observed messaging choices, not proof of conversion effectiveness.
+
+## Customer evidence
+
+The product page displayed a Trustpilot reference of **4.6/5 from 2,638 reviews**. We did not independently inspect those reviews, so we cannot summarize recurring praise or complaints or assume the score concerns this SKU. [Displayed review reference](https://www.sonofatailor.com/product/cotton-t-shirt/1-1-3-9-1).
+
+## What we can learn
+
+**Takeaway:** fit can be the product’s main differentiator; disclose material tradeoffs clearly. **Test:** willingness to wait for custom fit versus immediate shipping. **Unknown:** independent customer experience, full refund terms, and whether the white fabric’s translucency fits our intended use.

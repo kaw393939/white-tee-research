@@ -1,0 +1,9 @@
+Welcome to White Tee Research, our shared library for building a plain white T-shirt brand.
+
+We are starting with the competitive landscape. Our first three profiles cover ASKET, Son of a Tailor, and True Classic. Each explores the product, price, brand message, customer evidence, and what we might learn. Their current ranges extend beyond a single product, and these first profiles are a starting point, not a complete market survey.
+
+You can listen to audio briefs directly on this site. Use the play and pause controls, drag the progress bar to skip ahead, or download the MP3. The transcript stays tucked away until you select Show transcript. Audio is generated locally on our Mac from written text, without a paid speech service.
+
+Later, the research will inform our customer persona, brand direction, and website plan. Archetype branding, persuasion principles, and modern or postmodern design are possibilities to explore, not decisions we have already made.
+
+To improve any page, use Suggest a change. It opens a GitHub issue with the page link included. A GitHub account is required, and submitted feedback is public.
