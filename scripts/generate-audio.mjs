@@ -14,7 +14,7 @@ if (!/^\d+$/.test(rate) || Number(rate) < 80 || Number(rate) > 350) throw new Er
 execFileSync('ffmpeg', ['-version'], { stdio: 'ignore' })
 const md = new MarkdownIt({ html: true })
 function narration(markdown) {
-  const tokens = md.parse(markdown, {})
+  const tokens = md.parse(markdown.replace(/\s+\{#[\w-]+\}(?=\s*$)/gm, ''), {})
   const paragraphs = []
   let inTable = false, row = [], headers = []
   const inline = token => (token.children || []).map(t => ['text', 'code_inline'].includes(t.type) ? t.content : ['softbreak', 'hardbreak'].includes(t.type) ? ' ' : '').join('')

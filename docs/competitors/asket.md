@@ -23,6 +23,18 @@ Specifications and shipping threshold: [product page](https://www.asket.com/en-u
 
 The page organizes proof around fabric, construction, manufacturing, and maintenance. **Interpretation:** an expertise-led approach, with review scores providing social proof. The opportunity to choose length makes fit more specific than a generic promise of quality.
 
+## Archetypes & persuasion {#archetype-persuasiveness}
+
+**Tentative archetype: Sage, with Creator cues.** The emphasis on explaining materials and supply chains suggests a teacher-like voice; continual product refinement adds a craft dimension. This is our reading of the [brand promise](https://www.asket.com/en-us/about), not ASKET’s stated archetype.
+
+| Lens | Observed evidence | Interpretation and limit |
+| --- | --- | --- |
+| Authority | Material, manufacturing, and traceability information on the [About page](https://www.asket.com/en-us/about) | Expertise cues; detail alone does not independently prove quality. |
+| Social proof | Customer ratings and written reviews on the [tee page](https://www.asket.com/en-us/mens-t-shirt-white) | Other buyers’ experiences support reassurance; the review sample remains limited. |
+| Reciprocity — possible | Public care and repair guides linked from the [About page](https://www.asket.com/en-us/about) | Helpful information can precede a purchase; we have not established a reciprocal response. |
+
+**For our tee:** test a clear fabric-and-fit explanation before adding persuasive slogans. [Framework and comparison](/research/brand-strategy).
+
 ## Customer evidence
 
 The product page displayed **4.6/5 from 2,692 reviews**. We read the first five shown, dated October 31–November 6, 2026: several praised fit or quality; one liked the length options, while another found regular length longer than expected. All five were five-star reviews. This small, brand-hosted sample is neither independent nor confirmed white-only. [Reviews on product page](https://www.asket.com/en-us/mens-t-shirt-white).

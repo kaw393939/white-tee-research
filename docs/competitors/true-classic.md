@@ -23,6 +23,18 @@ Source: [product page](https://www.trueclassictees.com/products/white-crew-neck-
 
 The page combines customer counts, ratings, try-on videos, sale pricing, multipacks, and membership offers. **Interpretation:** social proof is prominent; discount comparisons provide price anchors. The number of options could also add buying complexity. These are hypotheses about the experience, not measured outcomes.
 
+## Archetypes & persuasion {#archetype-persuasiveness}
+
+**Tentative archetype: Everyperson, with aspirational confidence cues.** Everyday fit problems and customer try-ons make the promise relatable. The appearance-focused language adds aspiration, but is insufficient to establish a separate Hero archetype. Evidence: [tee page](https://www.trueclassictees.com/products/white-crew-neck-tee).
+
+| Lens | Observed evidence | Interpretation and limit |
+| --- | --- | --- |
+| Social proof | Customer counts, review totals, and try-on videos on the [tee page](https://www.trueclassictees.com/products/white-crew-neck-tee) | Popularity and peer experience are prominent; counts are brand-displayed, not audited by us. |
+| Liking — plausible | Everyday-customer presentation and conversational fit language on the same page | May make the messenger relatable; actual affinity needs customer testing. |
+| Scarcity — not established | Black Friday pricing appears on the same page | A promotional label alone does not verify a real deadline or limited stock. |
+
+**For our tee:** test honest try-on examples with useful size context. Discounts are price framing; membership benefits alone do not prove unity. [Framework and comparison](/research/brand-strategy).
+
 ## Customer evidence
 
 The page displayed **4.5/5 from 71,037 reviews**. In the first five displayed entries, appearance and fit were recurring positives; others mentioned quality or delivery. All five were five-star entries, and two shared the same reviewer name. They are not a representative sample or confirmed white-only reviews. Complaint themes remain unresearched. [Product reviews](https://www.trueclassictees.com/products/white-crew-neck-tee).

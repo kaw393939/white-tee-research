@@ -17,6 +17,10 @@ Who buys it, what does the brand promise, and is its current range focused on on
 
 Briefly describe the messaging, visual style, and shopping experience. Note any persuasive techniques or archetype cues as interpretations, supported by examples.
 
+## Archetypes & persuasion
+
+Suggest an archetype only if the messaging supports it. For each Cialdini principle, record the observed example, source, interpretation, and limitation. Leave unsupported principles unclassified. Use the [comparison guide](/research/brand-strategy).
+
 ## Customer feedback
 
 Summarize recurring praise and complaints. Link the review sources and note how many reviews you examined and any limitations.

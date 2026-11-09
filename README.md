@@ -40,6 +40,10 @@ GitHub Pages serves the generated `gh-pages` branch at **https://kaw393939.githu
 
 VitePress 1.6.4 uses a Vite 6.4.6 override to avoid older dependency advisories. The optional CI example in `.github/workflow-examples/docs.yml` requires workflow permission before moving into `.github/workflows/`.
 
+## Designer references and brand analysis
+
+Designer pages live in `docs/designers/` and link from Our Brand. Portraits are linked at their original sources because reusable portraits were not verified; misleading image candidates were excluded. The short framework guide is `docs/research/brand-strategy.md`. Competitor labels are interpretations, with evidence and limitations beside each claim. Regenerate competitor audio whenever these profiles change.
+
 ## Local audio
 
 The homepage has a welcome player; each competitor profile has an audio brief. Native controls provide playback and seeking, with an MP3 download and a transcript collapsed by default. No autoplay.

@@ -14,6 +14,8 @@ Our shared research library for a future **plain white T-shirt brand**. Listen t
 
 Observed November 9, 2026. These are three useful starting benchmarks, not the whole market. All currently sell more than one product type. Prices exclude unverified taxes or fees; see each profile for sources, review limits, and an audio brief.
 
+[Compare their archetypes and persuasion techniques](/research/brand-strategy) — a short guide with evidence and one exercise to try.
+
 ## What we’re learning
 
 - **Fit takes different forms:** length options at ASKET, customization at Son of a Tailor, and body-shape benefits at True Classic.
