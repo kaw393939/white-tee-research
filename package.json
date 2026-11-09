@@ -6,12 +6,13 @@
   "description": "Competitive landscape research hub for a future plain white T-shirt brand",
   "scripts": {
     "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
+    "docs:build": "vitepress build docs && npm run docs:check-links",
     "docs:preview": "vitepress preview docs",
     "docs:deploy": "bash scripts/deploy-pages.sh",
     "audio:generate": "node scripts/generate-audio.mjs",
     "audio:asket": ".venv-kokoro/bin/python scripts/generate-kokoro.py asket",
-    "audio:summaries": ".venv-kokoro/bin/python scripts/generate-kokoro.py"
+    "audio:summaries": ".venv-kokoro/bin/python scripts/generate-kokoro.py",
+    "docs:check-links": "python3 scripts/check-links.py"
   },
   "engines": {
     "node": ">=22"

@@ -26,7 +26,7 @@ npm ci
 npm run docs:dev
 ```
 
-Use `npm run docs:build` to verify the production build and internal links; `npm run docs:preview` previews it.
+Use `npm run docs:build` to build and check internal page links, anchors, and referenced assets (requires Python 3); `npm run docs:preview` previews it.
 
 ## Publish
 
@@ -36,7 +36,9 @@ Push source changes to `main`, then run:
 npm run docs:deploy
 ```
 
-GitHub Pages serves the generated `gh-pages` branch at **https://kaw393939.github.io/white-tee-research/**. Publishing requires an authenticated GitHub CLI with repository write access. Source pushes alone do not update the site.
+GitHub Pages serves the generated `gh-pages` branch at **https://kaw393939.github.io/white-tee-research/**. Publishing requires an authenticated GitHub CLI with repository write access. Source pushes alone do not update the site. Publishing stops if the link check fails. Run `npm run docs:check-links` to recheck an existing build.
+
+The retired `/research/brief.html` URL redirects to the homepage through a small static page in `docs/public/research/brief.html`. It stays out of navigation and search; the link check explicitly protects this redirect.
 
 VitePress 1.6.4 uses a Vite 6.4.6 override to avoid older dependency advisories. The optional CI example in `.github/workflow-examples/docs.yml` requires workflow permission before moving into `.github/workflows/`.
 
