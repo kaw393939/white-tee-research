@@ -2,6 +2,8 @@
 
 **Website:** — · **Market:** — · **Reviewed:** YYYY-MM-DD
 
+<!-- Add <AudioBrief name="your-slug" /> here after generating its summary. See README: Local audio. -->
+
 ## The offer
 
 Who buys it, what does the brand promise, and is its current range focused on one product?

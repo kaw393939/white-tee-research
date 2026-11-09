@@ -2,6 +2,8 @@
 
 **Study for:** restraint, material quality, and precision.
 
+<AudioBrief name="jil-sander" />
+
 ## Brief bio
 
 Jil Sander is a German fashion designer who established her company and first collection in 1968. Her work combines minimalism with technical and material experimentation. We’re studying the founder’s design approach, rather than attributing every later collection from the Jil Sander label to her. [Biography: Thonet](https://www.thonet.de/fileadmin/media/08-company/Press_releases/JS_._THONET/3_Thonet_Designer_profile_Jil_Sander_EN.pdf).

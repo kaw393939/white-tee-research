@@ -48,9 +48,9 @@ Designer pages live in `docs/designers/` and link from Our Brand. Portraits are 
 
 Each audio panel includes play/pause, seeking, a speed selector, MP3 download, and a transcript collapsed by default. No autoplay. Audio files are generated ahead of time and committed; GitHub Pages needs no speech service or API key.
 
-### ASKET: 60-second Kokoro pilot
+### Competitors and designers: 60-second Kokoro summaries
 
-[Listen to the ASKET summary](https://kaw393939.github.io/white-tee-research/competitors/asket.html). The script is `audio/asket-summary.txt`; the default voice is Kokoro's American English `af_heart`. Edit that summary when the research changes, then regenerate and publish the audio and transcript together.
+All three competitor profiles and all three designer pages use Kokoro’s American English Heart voice (`af_heart`). Scripts live in `audio/<slug>-summary.txt`. Edit the relevant summary when the research changes, then regenerate and publish the audio and transcript together.
 
 Local setup (Python 3.11, tested on Apple Silicon):
 
@@ -58,8 +58,10 @@ Local setup (Python 3.11, tested on Apple Silicon):
 brew install python@3.11 espeak-ng ffmpeg
 python3.11 -m venv .venv-kokoro
 .venv-kokoro/bin/pip install -r scripts/requirements-kokoro.txt
-npm run audio:asket
+npm run audio:summaries
 ```
+
+To regenerate selected pages: `npm run audio:summaries -- son-of-a-tailor jil-sander`. `npm run audio:asket` remains available for ASKET alone. Add a new page’s slug and title to `BRIEFS` in `scripts/generate-kokoro.py`, write its summary, and include `<AudioBrief name="slug" />` below its introduction.
 
 The first generation downloads the model, voice, and English language resources. Synthesis runs locally on CPU; model caches and the Python environment stay outside Git. `KOKORO_VOICE` can select another American English voice. The generator measures the recording, makes a modest tempo adjustment to reach 60 seconds without cutting speech, normalizes loudness, and updates the transcript and cache version. It rejects scripts requiring more than a 20% tempo adjustment.
 
@@ -67,7 +69,7 @@ Sources: [Kokoro library](https://github.com/hexgrad/kokoro) · [model and Apach
 
 ### Existing Mac narration
 
-`npm run audio:generate` refreshes the welcome, Son of a Tailor, and True Classic recordings using macOS `say` and FFmpeg. It preserves Kokoro entries, including ASKET. These other competitors still use full-page narration during the pilot.
+`npm run audio:generate` refreshes the homepage welcome using macOS `say` and FFmpeg. It preserves all Kokoro entries. Use `audio:summaries` for competitor and designer recordings.
 
 Optional: `TTS_VOICE=Daniel TTS_RATE=155 npm run audio:generate`. Default: Samantha, 165 words per minute. Use `say -v '?'` to list installed voices.
 

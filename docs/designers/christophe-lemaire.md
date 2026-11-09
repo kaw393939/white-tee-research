@@ -2,6 +2,8 @@
 
 **Study for:** everyday usefulness, proportion, and movement.
 
+<AudioBrief name="christophe-lemaire" />
+
 ## Brief bio
 
 Christophe Lemaire is a French designer who founded his label in 1991 after working at Christian Lacroix and other Paris studios. He later led artistic direction at Lacoste and Hermès. Today, LEMAIRE’s creative work is shared with Sarah-Linh Tran; the house describes clothing designed for everyday life, with attention to movement, materials, and layering. [Official biography](https://www.lemaire.fr/pages/about-lemaire).

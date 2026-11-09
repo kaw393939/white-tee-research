@@ -10,7 +10,8 @@
     "docs:preview": "vitepress preview docs",
     "docs:deploy": "bash scripts/deploy-pages.sh",
     "audio:generate": "node scripts/generate-audio.mjs",
-    "audio:asket": ".venv-kokoro/bin/python scripts/generate-kokoro.py"
+    "audio:asket": ".venv-kokoro/bin/python scripts/generate-kokoro.py asket",
+    "audio:summaries": ".venv-kokoro/bin/python scripts/generate-kokoro.py"
   },
   "engines": {
     "node": ">=22"

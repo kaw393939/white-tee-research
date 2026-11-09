@@ -2,6 +2,8 @@
 
 **Study for:** challenging conventions and building a distinctive point of view.
 
+<AudioBrief name="rei-kawakubo" />
+
 ## Brief bio
 
 Rei Kawakubo is a Japanese designer and the founder of Comme des Garçons. Her work questions familiar boundaries between clothing, the body, and art. The Metropolitan Museum of Art devoted its 2017 exhibition, *Rei Kawakubo/Comme des Garçons: Art of the In-Between*, to that approach. [The Met’s exhibition](https://www.metmuseum.org/exhibitions/listings/2017/rei-kawakubo).
