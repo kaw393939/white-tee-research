@@ -1,0 +1,21 @@
+{
+  "name": "white-tee-research",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Competitive landscape research hub for a future plain white T-shirt brand",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4"
+  },
+  "overrides": {
+    "vite": "6.4.6"
+  }
+}
