@@ -1,5 +1,7 @@
 # White Tee Research
 
+**[Open the research hub](https://kaw393939.github.io/white-tee-research/)**
+
 A VitePress research hub for a future plain white T-shirt brand. Current scope: collect evidence, profile competitors, and map the competitive landscape before developing the brand.
 
 ## Local development
@@ -35,4 +37,14 @@ VitePress 1.6.4 (stable), local full-text search, light/dark theme, and a GitHub
 
 The build workflow is saved at `.github/workflow-examples/docs.yml`. Move it to `.github/workflows/docs.yml` using GitHub credentials with workflow permission to enable CI. The current token cannot publish active workflows.
 
-The repository is private. Hosting is not configured; run locally for now. For future hosting, follow the [VitePress deployment guide](https://vitepress.dev/guide/deploy) and set the appropriate base path if deploying under a repository subpath.
+## Live site and publishing
+
+The repository is public. Review the hub at **https://kaw393939.github.io/white-tee-research/**.
+
+GitHub Pages serves the generated site from the root of the `gh-pages` branch. The VitePress base path is `/white-tee-research/`. After editing and pushing source changes to `main`, publish a fresh build with:
+
+```sh
+npm run docs:deploy
+```
+
+Publishing requires an authenticated GitHub CLI (`gh`) with repository write access. The deploy script builds the site, adds `.nojekyll`, and pushes a new commit to `gh-pages`. Source pushes alone do not update the live site. This branch-based deployment does not require OAuth workflow scope.

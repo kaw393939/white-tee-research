@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: 'White Tee Research',
+  base: '/white-tee-research/',
   description: 'An evidence-led research hub for a future plain white T-shirt brand.',
   lang: 'en-US',
   lastUpdated: true,
